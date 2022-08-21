@@ -1,0 +1,11 @@
+# To use this configuration, copy its contents to a new file at the root of the project.
+# Name this file app.yaml, and it will be picked up by the server.
+# app.yaml is in the git ignore to prevent any secrets from leaking.
+
+runtime: nodejs14
+
+env_variables:
+  # Port to listen on 
+  PORT: 8080
+  # Boolean to log debug messages to log method.
+  DEBUGLOG: true 
